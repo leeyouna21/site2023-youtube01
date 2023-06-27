@@ -1,0 +1,117 @@
+::-webkit-scrollbar {
+  width: 8px; /* 스크롤 바의 너비 */
+  height: 8px; /* 스크롤 바의 높이 */
+  background-color: #F0F0F0; /* 스크롤 바의 배경색 */
+}
+/* 스크롤 바의 색상 지정 */
+::-webkit-scrollbar-thumb {
+  background-color: #62BFAD; /* 스크롤 바의 색상 */
+  border-radius: 50px;
+
+}
+/* 스크롤 바 호버 시 색상 지정 */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #48c7ae; /* 스크롤 바의 색상 */
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+select,
+table,
+td,
+textarea {
+    font-family: Eulyoo1945;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+th,
+ul,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+a,
+a:hover,
+a:focus {
+  color: #62BFAD;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+ul {
+  list-style: none;
+}
+em,
+address {
+  font-style: normal;
+}
+strong {
+  font-weight: normal;
+}
+img {
+  vertical-align: top;
+  width: 100%;
+}
+table {
+  border: 0;
+  border-collapse: collaspe;
+  border-spacing: 0;
+  width: 100%;
+}
+button {
+  background: transparent;
+  border: 0;
+}
+.blind {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+.ir {
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999px;
+}
