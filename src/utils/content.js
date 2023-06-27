@@ -1,9 +1,9 @@
 import { GoBook } from 'react-icons/go';
 import { GiLoveSong } from 'react-icons/gi';
 export const categories = [
+    { name: 'essential;', icon: <GiLoveSong /> },
     { name: '기몽초', icon: <GiLoveSong /> },
     { name: '모트모트tv', icon: <GiLoveSong /> },
-    { name: 'essential;', icon: <GiLoveSong /> },
     { name: '재즈기자', icon: <GiLoveSong /> },
     { name: 'tvN STORY', icon: <GoBook /> },
     { name: '따뜻한 목소리 현준', icon: <GoBook /> },
